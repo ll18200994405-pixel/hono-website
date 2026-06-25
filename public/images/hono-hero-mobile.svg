@@ -1,0 +1,46 @@
+<svg width="900" height="1600" viewBox="0 0 900 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1600" fill="#89A1AF"/>
+  <rect width="900" height="1600" fill="url(#wall)"/>
+  <path d="M0 1430C156 1390 316 1380 474 1404C612 1426 750 1420 900 1375V1600H0V1430Z" fill="#C9C2B8"/>
+  <path d="M0 0H900V1600H0C98 1354 146 1030 146 628C146 350 206 196 326 166C456 134 551 222 606 430C666 650 670 1012 724 1600H0Z" fill="url(#sideShade)" opacity=".34"/>
+  <g filter="url(#shadow)" transform="translate(-92 90)">
+    <path d="M480 285C590 334 658 520 710 1450C574 1514 348 1514 210 1450C262 520 334 334 448 285C456 314 472 314 480 285Z" fill="#F7F0E6"/>
+    <path d="M316 420C372 477 538 478 596 420" stroke="#D2AE58" stroke-width="9" stroke-linecap="round"/>
+    <path d="M292 662C378 728 554 730 634 662" stroke="#D2AE58" stroke-width="7" stroke-opacity=".55" stroke-linecap="round"/>
+    <path d="M264 1122C366 1190 566 1190 672 1122" stroke="#D2AE58" stroke-width="7" stroke-opacity=".48" stroke-linecap="round"/>
+    <path d="M432 360C426 624 398 944 346 1430" stroke="#D2AE58" stroke-width="5" stroke-opacity=".34"/>
+    <path d="M496 360C504 624 534 944 590 1430" stroke="#D2AE58" stroke-width="5" stroke-opacity=".34"/>
+    <circle cx="464" cy="214" r="58" fill="#D8BFA6"/>
+    <path d="M392 224C405 150 448 120 498 135C546 150 566 194 548 246C506 204 448 198 392 224Z" fill="#11100E"/>
+    <path d="M408 232C442 206 504 208 548 246C548 204 528 158 486 148C438 136 414 172 408 232Z" fill="#17120F"/>
+    <path d="M300 1418C394 1462 538 1462 644 1418" stroke="#6F8795" stroke-width="10" stroke-opacity=".65" stroke-linecap="round"/>
+  </g>
+  <g opacity=".88" transform="translate(-92 90)">
+    <circle cx="236" cy="662" r="54" fill="#D8B84A"/>
+    <circle cx="292" cy="642" r="45" fill="#E0C14E"/>
+    <circle cx="300" cy="710" r="48" fill="#D4B13F"/>
+    <path d="M196 716C250 758 342 748 384 688" stroke="#B58A26" stroke-width="8" stroke-linecap="round"/>
+    <path d="M214 736C310 720 380 640 392 558" stroke="#B58A26" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <rect width="900" height="1600" fill="url(#shade)"/>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="900" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9DB4C0"/>
+      <stop offset=".52" stop-color="#87A0AD"/>
+      <stop offset="1" stop-color="#6F8795"/>
+    </linearGradient>
+    <linearGradient id="sideShade" x1="0" y1="0" x2="900" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C6D4DC"/>
+      <stop offset=".55" stop-color="#7C95A2"/>
+      <stop offset="1" stop-color="#4D6470"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="450" y1="0" x2="450" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000" stop-opacity=".08"/>
+      <stop offset=".42" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".18"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="108" width="720" height="1446" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#314854" flood-opacity=".24"/>
+    </filter>
+  </defs>
+</svg>

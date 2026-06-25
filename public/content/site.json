@@ -1,0 +1,156 @@
+{
+  "images": {
+    "logo": "/images/hono-official-logo.png",
+    "logoWhite": "/images/hono-official-logo-white.png",
+    "logoWordWhite": "/images/hono-wordmark-white.png",
+    "hero": "/images/hero-abaya-model.jpg",
+    "heroWide": "/images/hero-abaya-model.jpg",
+    "heroMobile": "/images/hero-abaya-model.jpg",
+    "fitStory": "/images/collection-everyday-modest.jpg",
+    "factory": "/images/factory-production.jpg",
+    "modernAbayas": "/images/collection-modern-abaya.jpg",
+    "elegantJalabiyas": "/images/collection-jalabiya.jpg",
+    "occasionDresses": "/images/collection-occasion-dress.jpg",
+    "everydayModestWear": "/images/collection-everyday-modest.jpg"
+  },
+  "links": {
+    "whatsapp": "https://wa.me/8613570999988",
+    "noon": "https://www.noon.com/saudi-en/seller/p-493130/",
+    "tiktok": "https://www.tiktok.com/@hono.abaya",
+    "instagram": "https://www.instagram.com/ll182009944052026/"
+  },
+  "copy": {
+    "en": {
+      "languageLabel": "Arabic",
+      "topOffer": "Saudi & Middle East modest fashion studio",
+      "heroEyebrow": "Riyadh Modern Abaya Edit",
+      "heroCampaignTitle": "HONO",
+      "heroCampaignSubtitle": "RIYADH ABAYA EDIT",
+      "whatsapp": "Contact on WhatsApp",
+      "noon": "Visit Noon Store",
+      "collectionsEyebrow": "Signature Collections",
+      "collectionsTitle": "Modern robe silhouettes for Saudi city life",
+      "collectionsIntro": "Explore HONO's core modestwear direction: structured abayas, graceful jalabiyas, occasion dresses and everyday long robes.",
+      "inquiry": "WhatsApp Inquiry",
+      "factoryEyebrow": "Factory & Supply Chain Strength",
+      "factoryTitle": "Fashion roots since 1986, supported by capable production partners",
+      "factoryIntro": "HONO's brand story traces back to 1986. Today, the brand works with professional clothing factory resources and experienced production partners to support sample development, small-batch production, quality control and export-ready packaging.",
+      "aboutEyebrow": "About HONO",
+      "aboutTitle": "Modern modestwear with Riyadh city confidence",
+      "aboutBody": "HONO is a women's fashion brand focused on modern abayas, jalabiyas and elegant occasion wear for Saudi Arabia and the Middle East. We combine graceful design, comfortable fabrics and reliable supply-chain support to serve women who value elegance and modesty.",
+      "contactEyebrow": "Contact & Social Links",
+      "contactTitle": "Connect with HONO",
+      "contactIntro": "For product inquiries, collection previews and social updates, reach HONO through the channels below.",
+      "footerNewsletter": "Collection previews and inquiry updates through WhatsApp and social channels."
+    },
+    "ar": {
+      "languageLabel": "English",
+      "topOffer": "استوديو أزياء محتشمة للسعودية والشرق الأوسط",
+      "heroEyebrow": "تشكيلة عبايات عصرية من وحي الرياض",
+      "heroCampaignTitle": "HONO",
+      "heroCampaignSubtitle": "RIYADH ABAYA EDIT",
+      "whatsapp": "تواصل عبر واتساب",
+      "noon": "زيارة متجر نون",
+      "collectionsEyebrow": "مجموعات مميزة",
+      "collectionsTitle": "قصات عبايات عصرية تناسب حياة المدينة السعودية",
+      "collectionsIntro": "اكتشفي اتجاه HONO في الأزياء المحتشمة: عبايات منظمة، جلابيات راقية، فساتين مناسبات وروب يومي طويل.",
+      "inquiry": "استفسار عبر واتساب",
+      "factoryEyebrow": "قوة الإنتاج وسلسلة التوريد",
+      "factoryTitle": "جذور في عالم الأزياء منذ 1986 بدعم شركاء إنتاج محترفين",
+      "factoryIntro": "تعود جذور HONO إلى عام 1986. تعمل العلامة اليوم مع موارد مصانع ملابس محترفة وشركاء إنتاج ذوي خبرة لدعم تطوير العينات، الإنتاج بكميات صغيرة، مراقبة الجودة والتغليف الجاهز للتصدير.",
+      "aboutEyebrow": "عن HONO",
+      "aboutTitle": "أزياء محتشمة عصرية بثقة مدينة الرياض",
+      "aboutBody": "HONO علامة أزياء نسائية تركز على العبايات العصرية والجلابيات وملابس المناسبات الأنيقة للسعودية والشرق الأوسط. نمزج بين التصميم الرشيق والأقمشة المريحة ودعم سلسلة التوريد الموثوق لخدمة المرأة التي تقدر الأناقة والاحتشام.",
+      "contactEyebrow": "التواصل والروابط الاجتماعية",
+      "contactTitle": "تواصلي مع HONO",
+      "contactIntro": "للاستفسارات عن المنتجات ومعاينة المجموعات وآخر التحديثات، تواصلي مع HONO عبر القنوات التالية.",
+      "footerNewsletter": "معاينات المجموعات وتحديثات الاستفسار عبر واتساب والقنوات الاجتماعية."
+    }
+  },
+  "products": [
+    {
+      "key": "modernAbayas",
+      "title": {
+        "en": "Modern Abayas",
+        "ar": "عبايات عصرية"
+      },
+      "description": {
+        "en": "Elegant abayas with clean silhouettes, refined details and a modest fit for daily wear and special moments.",
+        "ar": "عبايات أنيقة بقصّات نظيفة وتفاصيل راقية وتصميم محتشم يناسب الإطلالات اليومية واللحظات الخاصة."
+      },
+      "price": {
+        "en": "WhatsApp Inquiry",
+        "ar": "استفسار عبر واتساب"
+      },
+      "categoryCta": {
+        "en": "Modern Abayas",
+        "ar": "عبايات عصرية"
+      },
+      "image": "/images/collection-modern-abaya.jpg",
+      "link": "https://wa.me/8613570999988"
+    },
+    {
+      "key": "elegantJalabiyas",
+      "title": {
+        "en": "Elegant Jalabiyas",
+        "ar": "جلابيات أنيقة"
+      },
+      "description": {
+        "en": "Graceful jalabiyas inspired by Middle Eastern elegance, designed for comfort, beauty and refined occasions.",
+        "ar": "جلابيات راقية مستوحاة من أناقة الشرق الأوسط، مصممة لتجمع بين الراحة والجمال والمظهر المتزن."
+      },
+      "price": {
+        "en": "WhatsApp Inquiry",
+        "ar": "استفسار عبر واتساب"
+      },
+      "categoryCta": {
+        "en": "Elegant Jalabiyas",
+        "ar": "جلابيات أنيقة"
+      },
+      "image": "/images/collection-jalabiya.jpg",
+      "link": "https://wa.me/8613570999988"
+    },
+    {
+      "key": "occasionDresses",
+      "title": {
+        "en": "Occasion Dresses",
+        "ar": "فساتين للمناسبات"
+      },
+      "description": {
+        "en": "Modest long dresses with feminine details, suitable for weddings, gatherings, evening events and celebrations.",
+        "ar": "فساتين طويلة محتشمة بتفاصيل أنثوية، مناسبة لحفلات الزفاف، التجمعات، السهرات والمناسبات الخاصة."
+      },
+      "price": {
+        "en": "WhatsApp Inquiry",
+        "ar": "استفسار عبر واتساب"
+      },
+      "categoryCta": {
+        "en": "Occasion Dresses",
+        "ar": "فساتين للمناسبات"
+      },
+      "image": "/images/collection-occasion-dress.jpg",
+      "link": "https://wa.me/8613570999988"
+    },
+    {
+      "key": "everydayModestWear",
+      "title": {
+        "en": "Everyday Modest Wear",
+        "ar": "أزياء محتشمة يومية"
+      },
+      "description": {
+        "en": "Comfortable and stylish modest pieces designed for daily dressing with a polished, modern look.",
+        "ar": "قطع محتشمة مريحة وأنيقة مصممة للإطلالات اليومية بأسلوب عصري ومرتب."
+      },
+      "price": {
+        "en": "WhatsApp Inquiry",
+        "ar": "استفسار عبر واتساب"
+      },
+      "categoryCta": {
+        "en": "Everyday Modest Wear",
+        "ar": "أزياء محتشمة يومية"
+      },
+      "image": "/images/collection-everyday-modest.jpg",
+      "link": "https://wa.me/8613570999988"
+    }
+  ]
+}

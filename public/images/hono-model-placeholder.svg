@@ -1,0 +1,36 @@
+<svg width="900" height="1220" viewBox="0 0 900 1220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1220" fill="#181613"/>
+  <rect width="900" height="1220" fill="url(#studio)"/>
+  <path d="M74 0H826C852 0 874 11 890 29V1220H10V29C26 11 48 0 74 0Z" fill="url(#wall)" opacity=".96"/>
+  <path d="M112 149C220 82 362 49 538 49C672 49 765 78 808 136V1118H112V149Z" fill="#FBF7EF" fill-opacity=".07"/>
+  <g opacity=".28" stroke="#D7B46A" stroke-width="3">
+    <path d="M120 316C236 263 358 267 486 326"/>
+    <path d="M472 326C594 262 704 266 802 318"/>
+    <path d="M120 395C248 349 368 357 480 416"/>
+    <path d="M480 416C598 351 708 350 802 399"/>
+  </g>
+  <path d="M168 980C320 1046 516 1050 728 974L790 1220H106L168 980Z" fill="#0E0D0C" fill-opacity=".38"/>
+  <path d="M455 164C585 214 667 389 738 1026C575 1114 327 1115 163 1026C233 388 320 214 447 164C449 205 459 205 455 164Z" fill="#0F0E0C"/>
+  <path d="M336 274C405 332 509 332 580 274" stroke="#E5C982" stroke-width="8" stroke-linecap="round"/>
+  <path d="M296 476C399 540 518 541 626 476" stroke="#D7B46A" stroke-width="6" stroke-opacity=".72" stroke-linecap="round"/>
+  <path d="M251 802C379 872 542 874 673 802" stroke="#E5C982" stroke-width="7" stroke-opacity=".68" stroke-linecap="round"/>
+  <path d="M446 216C443 449 416 688 359 1004" stroke="#D7B46A" stroke-width="5" stroke-opacity=".54"/>
+  <path d="M470 216C478 451 502 690 548 1004" stroke="#D7B46A" stroke-width="5" stroke-opacity=".54"/>
+  <path d="M333 1019C407 1058 512 1058 592 1019" stroke="#FBF7EF" stroke-width="5" stroke-opacity=".46" stroke-linecap="round"/>
+  <circle cx="453" cy="126" r="55" fill="#D9BFA6"/>
+  <path d="M386 128C403 73 431 48 466 51C506 55 527 86 520 132C486 106 434 105 386 128Z" fill="#1D1713"/>
+  <path d="M92 1068H808" stroke="#D7B46A" stroke-opacity=".22" stroke-width="2"/>
+  <rect x="78" y="78" width="744" height="1064" rx="2" stroke="#D7B46A" stroke-opacity=".32" stroke-width="2"/>
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="900" y2="1220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F0D0B"/>
+      <stop offset=".42" stop-color="#2B251D"/>
+      <stop offset="1" stop-color="#BFAE92"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="450" y1="0" x2="450" y2="1220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CDBB9F" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#EADFCE" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#181613" stop-opacity=".42"/>
+    </linearGradient>
+  </defs>
+</svg>

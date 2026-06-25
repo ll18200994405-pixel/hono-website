@@ -1,0 +1,115 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: "https://hono1986.com"
+display_url: "https://hono1986.com"
+logo_url: "/images/hono-official-logo.png"
+
+collections:
+  - name: "site"
+    label: "HONO Website"
+    files:
+      - name: "homepage"
+        label: "Homepage Content"
+        file: "public/content/site.json"
+        format: "json"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Logo", name: "logo", widget: "image", required: false }
+              - { label: "White Logo", name: "logoWhite", widget: "image", required: false }
+              - { label: "White Wordmark", name: "logoWordWhite", widget: "image", required: false }
+              - { label: "Desktop Hero Image", name: "heroWide", widget: "image", required: false }
+              - { label: "Mobile Hero Image", name: "heroMobile", widget: "image", required: false }
+              - { label: "Factory Image", name: "factory", widget: "image", required: false }
+              - { label: "Modern Abayas Image", name: "modernAbayas", widget: "image", required: false }
+              - { label: "Elegant Jalabiyas Image", name: "elegantJalabiyas", widget: "image", required: false }
+              - { label: "Occasion Dresses Image", name: "occasionDresses", widget: "image", required: false }
+              - { label: "Everyday Modest Wear Image", name: "everydayModestWear", widget: "image", required: false }
+
+          - label: "Social Links"
+            name: "links"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+              - { label: "Noon", name: "noon", widget: "string" }
+              - { label: "TikTok", name: "tiktok", widget: "string" }
+              - { label: "Instagram", name: "instagram", widget: "string" }
+
+          - label: "Website Text"
+            name: "copy"
+            widget: "object"
+            collapsed: false
+            fields:
+              - label: "English Text"
+                name: "en"
+                widget: "object"
+                collapsed: false
+                fields: &copy_fields
+                  - { label: "Language Button", name: "languageLabel", widget: "string", required: false }
+                  - { label: "Top Offer", name: "topOffer", widget: "string", required: false }
+                  - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string", required: false }
+                  - { label: "Hero Big Text", name: "heroCampaignTitle", widget: "string", required: false }
+                  - { label: "Hero Subtitle", name: "heroCampaignSubtitle", widget: "string", required: false }
+                  - { label: "WhatsApp Button", name: "whatsapp", widget: "string", required: false }
+                  - { label: "Noon Button", name: "noon", widget: "string", required: false }
+                  - { label: "Collections Eyebrow", name: "collectionsEyebrow", widget: "string", required: false }
+                  - { label: "Collections Title", name: "collectionsTitle", widget: "string", required: false }
+                  - { label: "Collections Intro", name: "collectionsIntro", widget: "text", required: false }
+                  - { label: "Inquiry Button", name: "inquiry", widget: "string", required: false }
+                  - { label: "Factory Eyebrow", name: "factoryEyebrow", widget: "string", required: false }
+                  - { label: "Factory Title", name: "factoryTitle", widget: "string", required: false }
+                  - { label: "Factory Intro", name: "factoryIntro", widget: "text", required: false }
+                  - { label: "About Eyebrow", name: "aboutEyebrow", widget: "string", required: false }
+                  - { label: "About Title", name: "aboutTitle", widget: "string", required: false }
+                  - { label: "About Body", name: "aboutBody", widget: "text", required: false }
+                  - { label: "Contact Eyebrow", name: "contactEyebrow", widget: "string", required: false }
+                  - { label: "Contact Title", name: "contactTitle", widget: "string", required: false }
+                  - { label: "Contact Intro", name: "contactIntro", widget: "text", required: false }
+                  - { label: "Footer Text", name: "footerNewsletter", widget: "text", required: false }
+              - label: "Arabic Text"
+                name: "ar"
+                widget: "object"
+                collapsed: true
+                fields: *copy_fields
+
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.title.en}}"
+            fields:
+              - { label: "Key", name: "key", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string" }
+                  - { label: "Arabic", name: "ar", widget: "string", required: false }
+              - label: "Description"
+                name: "description"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "text" }
+                  - { label: "Arabic", name: "ar", widget: "text", required: false }
+              - label: "Button / Price Text"
+                name: "price"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Arabic", name: "ar", widget: "string", required: false }
+              - label: "Category CTA"
+                name: "categoryCta"
+                widget: "object"
+                fields:
+                  - { label: "English", name: "en", widget: "string", required: false }
+                  - { label: "Arabic", name: "ar", widget: "string", required: false }
+              - { label: "Product Image", name: "image", widget: "image" }
+              - { label: "Link", name: "link", widget: "string", required: false }

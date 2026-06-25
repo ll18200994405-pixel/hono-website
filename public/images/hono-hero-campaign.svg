@@ -1,0 +1,30 @@
+<svg width="2200" height="1200" viewBox="0 0 2200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2200" height="1200" fill="#89A1AF"/>
+  <rect width="2200" height="1200" fill="url(#bg)"/>
+  <path d="M0 1030C380 920 760 900 1100 980C1460 1065 1800 1080 2200 985V1200H0V1030Z" fill="#667E8C" fill-opacity=".3"/>
+  <path d="M1320 174C1495 238 1602 430 1678 1130C1470 1195 1068 1196 846 1130C922 428 1035 238 1210 174C1244 213 1284 213 1320 174Z" fill="#F6F0E7"/>
+  <path d="M996 428C1118 500 1414 502 1545 428" stroke="#D4B15E" stroke-width="13" stroke-linecap="round"/>
+  <path d="M950 720C1110 795 1434 800 1604 720" stroke="#D4B15E" stroke-width="10" stroke-opacity=".64" stroke-linecap="round"/>
+  <path d="M900 1005C1080 1080 1468 1082 1636 1005" stroke="#6F8795" stroke-width="12" stroke-opacity=".78" stroke-linecap="round"/>
+  <path d="M1214 260C1210 535 1166 820 1088 1160" stroke="#D4B15E" stroke-width="7" stroke-opacity=".42"/>
+  <path d="M1325 260C1337 535 1382 820 1468 1160" stroke="#D4B15E" stroke-width="7" stroke-opacity=".42"/>
+  <circle cx="1268" cy="124" r="78" fill="#D8BFA6"/>
+  <path d="M1174 132C1196 55 1240 20 1290 30C1348 42 1380 88 1368 150C1318 110 1240 106 1174 132Z" fill="#15110F"/>
+  <path d="M1180 138C1222 110 1318 112 1370 150C1366 112 1348 66 1290 54C1230 42 1194 76 1180 138Z" fill="#0F0D0C"/>
+  <path d="M572 614C572 558 618 512 674 512C730 512 776 558 776 614C776 670 730 716 674 716C618 716 572 670 572 614Z" fill="#D8B84A"/>
+  <path d="M622 644C686 632 738 590 762 532" stroke="#B58A26" stroke-width="8" stroke-linecap="round"/>
+  <path d="M620 660C725 628 800 540 812 445" stroke="#B58A26" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 0H2200V1200H0V0Z" fill="url(#shade)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="2200" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79929F"/>
+      <stop offset=".45" stop-color="#92AAB8"/>
+      <stop offset="1" stop-color="#6E8592"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="black" stop-opacity=".08"/>
+      <stop offset=".45" stop-color="black" stop-opacity="0"/>
+      <stop offset="1" stop-color="black" stop-opacity=".16"/>
+    </linearGradient>
+  </defs>
+</svg>

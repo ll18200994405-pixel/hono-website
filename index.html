@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HONO creates modern modest fashion, elegant long robes, abayas, jalabiyas and occasion dresses for Saudi Arabia and the Middle East."
+    />
+    <title>HONO | Modern Modest Fashion for Saudi Arabia & the Middle East</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", function (user) {
+          if (!user && window.location.hash.includes("invite_token")) {
+            window.netlifyIdentity.open("signup");
+          }
+        });
+        window.netlifyIdentity.on("login", function () {
+          window.location.href = "/admin/";
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
