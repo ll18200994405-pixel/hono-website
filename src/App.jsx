@@ -144,6 +144,20 @@ export default function App() {
 
   const text = config.copy[language] || config.copy.en;
   const isArabic = language === "ar";
+  const languageLabel = isArabic ? "English" : "简体中文";
+  const legacyDisplay = isArabic
+    ? {
+        eyebrow: "A LEGACY OF SILK",
+        title: "إرث الحرير منذ 1986",
+        body: "منذ ما يقارب أربعين عاما، تواصل HONO تقديم أردية فاخرة تحتفي بالأناقة والاحتشام. يلتقي الإرث الصيني مع التصميم المعاصر في كل قطعة نصنعها بعناية.",
+        note: "بإخلاص للحرفة، وبأناقة في كل تفصيل",
+      }
+    : {
+        eyebrow: "A LEGACY OF SILK",
+        title: "丝绸传承 始于 1986",
+        body: "近四十年来，HONO 一直精心打造奢华长袍，尊重信仰的同时颂扬优雅。我们的中国传承与当代设计在每一件精心创作的作品中相遇。",
+        note: "以匠心致敬信仰，以设计诠释优雅",
+      };
 
   const products = useMemo(
     () =>
@@ -184,7 +198,7 @@ export default function App() {
 
         <div className="header-actions">
           <button className="language-button" type="button" onClick={() => setLanguage(isArabic ? "en" : "ar")}>
-            {text.languageLabel}
+            {languageLabel}
           </button>
           <a className="inquire-button" href={config.links.whatsapp} target="_blank" rel="noreferrer">
             INQUIRE
@@ -204,7 +218,7 @@ export default function App() {
             </button>
           ))}
           <button type="button" onClick={() => setLanguage(isArabic ? "en" : "ar")}>
-            {text.languageLabel}
+            {languageLabel}
           </button>
           <a href={config.links.whatsapp} target="_blank" rel="noreferrer">
             INQUIRE
@@ -296,10 +310,13 @@ export default function App() {
             <small>EST.</small>
           </div>
           <div className="legacy-copy">
-            <p>{text.aboutEyebrow}</p>
-            <h2>{text.aboutTitle}</h2>
-            <div className="legacy-line" />
-            <span>{text.aboutBody}</span>
+            <p>{legacyDisplay.eyebrow}</p>
+            <h2>{legacyDisplay.title}</h2>
+            <span>{legacyDisplay.body}</span>
+            <div className="legacy-signature">
+              <i />
+              <small>{legacyDisplay.note}</small>
+            </div>
           </div>
         </section>
 

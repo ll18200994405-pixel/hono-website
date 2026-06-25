@@ -41,6 +41,10 @@ button {
   cursor: pointer;
 }
 
+section {
+  scroll-margin-top: 101px;
+}
+
 .hono-site {
   min-height: 100vh;
   background: var(--hono-black);
@@ -53,12 +57,12 @@ button {
   left: 0;
   right: 0;
   display: grid;
-  grid-template-columns: 240px 1fr 300px;
+  grid-template-columns: 300px 1fr 300px;
   align-items: center;
-  min-height: 108px;
+  min-height: 101px;
   padding: 0 4.2vw;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: #050504;
 }
 
 .word-logo,
@@ -67,12 +71,12 @@ button {
   background: transparent;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 4vw, 4.3rem);
+  font-size: clamp(3rem, 3.25vw, 3.65rem);
   font-weight: 400;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.18em;
   line-height: 1;
   text-align: left;
-  text-shadow: 0 8px 25px rgba(0, 0, 0, 0.55);
+  text-shadow: none;
 }
 
 [dir="rtl"] .word-logo {
@@ -91,12 +95,18 @@ button {
   border: 0;
   background: transparent;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.93rem;
+  font-size: 0.98rem;
   font-weight: 500;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.2em;
   transition:
     color 180ms ease,
     transform 180ms ease;
+}
+
+.desktop-nav button:focus,
+.language-button:focus,
+.word-logo:focus {
+  outline: 0;
 }
 
 .desktop-nav button:hover,
@@ -453,11 +463,11 @@ button {
 
 .legacy-section {
   display: grid;
-  grid-template-columns: minmax(18rem, 0.9fr) minmax(22rem, 1.1fr);
+  grid-template-columns: minmax(24rem, 1fr) minmax(34rem, 1.06fr);
   align-items: center;
-  gap: 8vw;
-  min-height: 68vh;
-  padding: 7.5rem 8vw;
+  gap: 8.6vw;
+  min-height: calc(100vh - 101px);
+  padding: 16rem 4.2vw 8.8rem;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
   background: #050504;
 }
@@ -466,7 +476,7 @@ button {
   position: relative;
   display: grid;
   place-items: center;
-  width: min(28rem, 70vw);
+  width: min(26rem, 32vw);
   aspect-ratio: 1;
   margin: 0 auto;
   border: 1px solid rgba(198, 163, 19, 0.45);
@@ -478,14 +488,25 @@ button {
 .legacy-mark::after {
   content: "";
   position: absolute;
-  inset: 2rem;
+  inset: 2.35rem;
   border: 1px solid rgba(198, 163, 19, 0.34);
   border-radius: inherit;
 }
 
+.legacy-mark::after {
+  inset: -0.7rem;
+  border-color: transparent;
+  background:
+    linear-gradient(var(--hono-gold), var(--hono-gold)) top center / 1px 24px no-repeat,
+    linear-gradient(var(--hono-gold), var(--hono-gold)) bottom center / 1px 24px no-repeat,
+    linear-gradient(var(--hono-gold), var(--hono-gold)) left center / 24px 1px no-repeat,
+    linear-gradient(var(--hono-gold), var(--hono-gold)) right center / 24px 1px no-repeat;
+  opacity: 0.42;
+}
+
 .legacy-mark span {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(4.4rem, 8vw, 7rem);
+  font-size: clamp(4.5rem, 6.2vw, 6.3rem);
   font-weight: 400;
 }
 
@@ -496,27 +517,44 @@ button {
 }
 
 .legacy-copy h2 {
-  margin: 1.9rem 0;
+  margin: 2.2rem 0 2.4rem;
   color: #fff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 4.4vw, 5rem);
-  font-weight: 400;
-  letter-spacing: 0.06em;
+  font-family:
+    "Noto Serif SC", "Songti SC", "SimSun", Georgia, "Times New Roman", serif;
+  font-size: clamp(3.2rem, 4.8vw, 5.1rem);
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.16;
+  white-space: nowrap;
 }
 
 .legacy-copy span {
   display: block;
-  max-width: 46rem;
+  max-width: 54rem;
   color: #aeb4bb;
-  font-size: 1.18rem;
-  line-height: 1.95;
+  font-size: 1.26rem;
+  line-height: 1.72;
+  letter-spacing: 0.04em;
 }
 
-.legacy-line {
-  width: 7rem;
+.legacy-signature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.4rem;
+  margin-top: 4.1rem;
+}
+
+.legacy-signature i {
+  width: 6.2rem;
   height: 1px;
-  margin: 0 0 1.6rem;
-  background: var(--hono-line);
+  background: rgba(198, 163, 19, 0.45);
+}
+
+.legacy-signature small {
+  color: #9e9fa3;
+  font-size: 1.08rem;
+  letter-spacing: 0.13em;
 }
 
 .factory-section {
@@ -694,7 +732,7 @@ button {
 
 @media (max-width: 1100px) {
   .lux-header {
-    grid-template-columns: 170px 1fr 230px;
+    grid-template-columns: 190px 1fr 230px;
     min-height: 88px;
   }
 
@@ -719,6 +757,19 @@ button {
 
   .hero-story-links {
     display: none;
+  }
+
+  .legacy-section {
+    grid-template-columns: minmax(20rem, 0.9fr) minmax(28rem, 1.1fr);
+    gap: 5vw;
+  }
+
+  .legacy-mark {
+    width: min(22rem, 36vw);
+  }
+
+  .legacy-copy h2 {
+    white-space: normal;
   }
 }
 
@@ -882,7 +933,8 @@ button {
   .legacy-section {
     grid-template-columns: 1fr;
     gap: 3.5rem;
-    padding: 5rem 1.25rem;
+    min-height: auto;
+    padding: 5.8rem 1.25rem;
   }
 
   .legacy-mark {
@@ -891,6 +943,8 @@ button {
 
   .legacy-copy h2 {
     font-size: 2.55rem;
+    letter-spacing: 0.04em;
+    white-space: normal;
   }
 
   .legacy-copy span {
